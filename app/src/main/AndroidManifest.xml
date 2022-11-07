@@ -2,9 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.mechacat">
-    <meta-data android:name="com.kakao.sdk.AppKey" android:value="XXXXXXXXXXXXXXXXXXXXXXXXXXXX"/>
+    <meta-data android:name="com.kakao.sdk.AppKey" android:value="782fad563ca19e1df1539c5ad322b02d"/>
 
     <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -26,7 +27,7 @@
         android:networkSecurityConfig="@xml/network_security_config"
         tools:targetApi="n">
 
-        <meta-data android:name="com.kakao.sdk.AppKey" android:value="네이티브 앱 키"/>
+        <meta-data android:name="com.kakao.sdk.AppKey" android:value="782fad563ca19e1df1539c5ad322b02d"/>
 
         <activity android:name="com.example.webview.MainActivity">
     </activity>
@@ -39,6 +40,7 @@
     </activity>
         <activity android:name="com.example.webview.remotelayout" />
         <activity android:name="com.example.webview.maplayout" />
+        <activity android:name="com.example.webview.newremote" />
 
 
 </application>
