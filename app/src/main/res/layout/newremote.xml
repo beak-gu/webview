@@ -33,10 +33,13 @@
 
         <EditText
             android:id="@+id/input_string_edittext"
-            android:hint="carnumber"
+            android:hint="차량번호(숫자 4자리)"
             android:layout_weight="0.8"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="4"
+            android:maxLines="1"/>
 
         <Button
             android:id="@+id/send_button"
